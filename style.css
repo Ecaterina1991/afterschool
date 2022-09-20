@@ -15,11 +15,38 @@
 }
 
 .content-container {
-  max-width: 1120px;
+  max-width: 1200px;
   height: 80px;
 }
 
 .nav-bar-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+.text {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 20px;
+  font-style: normal;
+  color: rgb(48, 19, 48);
+  margin-left: 15px;
+}
+
+.links-bar > a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 20px;
+  color: rgb(48, 19, 48);
+  margin: 0 7px;
+}
+
+.links-bar-icon {
+  margin-left: 120px;
+}
+
+#city {
+  font-size: 14px;
+  font-style: italic;
 }
