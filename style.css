@@ -1,1 +1,25 @@
+.nav {
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  max-width: 1120px;
+  height: 80px;
+}
+
+.nav-bar-wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
