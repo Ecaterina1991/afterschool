@@ -1,5 +1,12 @@
+* {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+}
+
 .nav {
-  height: 80px;
+  height: 5em;
   justify-content: center;
   align-items: center;
 }
@@ -15,7 +22,7 @@
 }
 
 .content-container {
-  max-width: 1200px;
+  max-width: 75em;
   margin: auto;
 }
 
@@ -25,25 +32,22 @@
 }
 
 .text {
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 20px;
-  font-style: normal;
+  font-size: 1em;
+  font-weight: 1.25em;
   color: rgb(48, 19, 48);
-  margin-left: 15px;
+  margin-left: 1em;
 }
 
 .links-bar > a {
   text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 20px;
+  font-size: 1em;
+  font-weight: 1.25em;
   color: rgb(48, 19, 48);
-  margin: 0 7px;
+  margin: 0 0.43em;
 }
 
 .links-bar-icon {
-  margin-left: 120px;
+  margin-left: 7.5em;
 }
 
 .first-col-left,
@@ -57,12 +61,11 @@
 }
 
 .section1 {
-  height: 455px;
+  height: 28.43em;
 }
 
 .header {
-  font-family: Poppins, sans-serif;
-  font-size: 28px;
+  font-size: 1.75em;
   font-weight: 800;
   font-style: normal;
   color: rgb(17, 11, 17);
@@ -70,10 +73,8 @@
 }
 
 .first-paragraph {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: 600;
-  font-style: normal;
   color: rgb(17, 11, 17);
 }
 
@@ -85,34 +86,30 @@
 }
 
 .primary-button {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: bold;
-  font-style: normal;
   color: rgb(17, 11, 17);
   background-color: rgb(255, 136, 0);
   border: none;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.31em;
+  padding: 0.62em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .video {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: bold;
-  font-style: normal;
   color: rgb(17, 11, 17);
   background-color: transparent;
   border: none;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.31em;
+  padding: 0.625em;
 }
 
 .margin-left {
-  margin-left: 50px;
+  margin-left: 3.12em;
 }
 
 .video-image {
@@ -126,6 +123,6 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 455px;
-  margin-top: 30px;
+  height: 28.43em;
+  margin-top: 1.87em;
 }
