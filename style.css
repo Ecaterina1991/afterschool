@@ -126,3 +126,18 @@
   height: 28.43em;
   margin-top: 1.87em;
 }
+
+#menu-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    display: flex;
+  }
+}
