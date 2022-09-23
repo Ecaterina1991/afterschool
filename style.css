@@ -23,8 +23,21 @@
 .content-container {
   max-width: 70em;
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
   padding: 0 20px;
+}
+
+body > section {
+  margin: 150px auto;
+}
+
+body > section:nth-child(2) {
+  margin-top: 25px;
+}
+
+body > section:last-child {
+  margin-top: 75px;
+  margin-bottom: 0;
 }
 
 .nav-bar-wrapper {
