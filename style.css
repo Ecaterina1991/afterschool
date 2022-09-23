@@ -125,11 +125,13 @@
 .right-image {
   width: 100%;
   height: auto;
+  pointer-events: none;
 }
 
 #menu-icon {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .menu-icon {
