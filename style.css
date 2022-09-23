@@ -123,12 +123,8 @@
 }
 
 .right-image {
-  background-image: url("./images/painting1.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 555px;
-  /* margin-top: 1.87em; */
+  width: 100%;
+  height: auto;
 }
 
 #menu-icon {
