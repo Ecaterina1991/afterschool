@@ -141,6 +141,10 @@
   display: none;
 }
 
+#menu-collapse {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .menu-icon {
     display: flex;
@@ -156,11 +160,15 @@
   .nav-bar-wrapper > .links-bar-icon {
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 80px;
+    left: 0;
+    right: 0;
     flex-direction: column;
-
     background-color: #ffffff;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow-y: hidden;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-bar-wrapper > .links-bar-icon > .links-bar > a {
@@ -175,4 +183,18 @@
   .nav-bar-wrapper > .links-bar-icon > .links-bar > a:hover {
     text-decoration: underline;
   }
+
+  .nav > #menu-collapse:not(:checked) ~ .nav-bar-wrapper > .links-bar-icon {
+    height: 0;
+  }
+
+  .swich-theme-button {
+    visibility: hidden;
+  }
+}
+
+.nav > #menu-collapse:checked ~ .nav-bar-wrapper > .links-bar-icon {
+  max-height: 100vh;
+  height: auto;
+  padding: 20px 10px;
 }
