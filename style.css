@@ -195,6 +195,11 @@ body > section:last-child {
   line-height: 33px;
 }
 
+.section-grid-4-col p {
+  font-size: 1em;
+  line-height: 26px;
+}
+
 @media screen and (max-width: 890px) {
   .menu-icon {
     display: flex;
