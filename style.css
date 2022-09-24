@@ -170,6 +170,31 @@ body > section:last-child {
   text-align: center;
 }
 
+.section-grid-4-col {
+  display: grid;
+  grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
+  gap: 0.63em;
+}
+
+.section-grid-4-col-1 {
+  grid-area: grid-col-1;
+}
+.section-grid-4-col-2 {
+  grid-area: grid-col-2;
+}
+.section-grid-4-col-3 {
+  grid-area: grid-col-3;
+}
+.section-grid-4-col-4 {
+  grid-area: grid-col-4;
+}
+
+.section-grid-4-col h5 {
+  font-size: 1.38em;
+  font-weight: 600;
+  line-height: 33px;
+}
+
 @media screen and (max-width: 890px) {
   .menu-icon {
     display: flex;
