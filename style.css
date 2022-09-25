@@ -97,6 +97,12 @@ body > section:last-child {
   color: rgb(17, 11, 17);
 }
 
+.first-section {
+  background-image: url("./images/sea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .link-buttons {
   display: flex;
   /* flex-direction: row; */
