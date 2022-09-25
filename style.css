@@ -217,6 +217,12 @@ body > section:last-child {
   height: auto;
 }
 
+.check-box-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 890px) {
   .menu-icon {
     display: flex;
