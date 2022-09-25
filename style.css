@@ -174,6 +174,8 @@ body > section:last-child {
   display: grid;
   grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
   gap: 0.63em;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .section-grid-4-col-1 {
@@ -198,6 +200,11 @@ body > section:last-child {
 .section-grid-4-col p {
   font-size: 1em;
   line-height: 26px;
+}
+
+.icon-image {
+  width: 50px;
+  height: auto;
 }
 
 @media screen and (max-width: 890px) {
@@ -253,6 +260,24 @@ body > section:last-child {
     padding: 20px 10px;
     align-items: center;
   }
+
+  .section-grid-4-col {
+    display: grid;
+    grid-template-areas:
+      "grid-col-1 grid-col-2"
+      "grid-col-3 grid-col-4";
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .section-row-4-cols > div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -266,6 +291,27 @@ body > section:last-child {
     display: flex;
     width: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-grid-4-col {
+    display: grid;
+    grid-template-areas:
+      "grid-col-1"
+      "grid-col-2"
+      "grid-col-3"
+      "grid-col-4";
+    gap: 0;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .section-grid-4-col > div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
