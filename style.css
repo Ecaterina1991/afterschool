@@ -161,6 +161,15 @@ body > section:last-child {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  margin: auto;
+}
+
+.section-bg {
+  background-image: url("./images/section-2-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: visible;
 }
 
 .section-3-row > h2 {
