@@ -101,6 +101,8 @@ body > section:last-child {
   background-image: url("./images/sea.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: visible;
+  background-position: top;
 }
 
 .link-buttons {
